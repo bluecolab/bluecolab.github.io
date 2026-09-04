@@ -2,11 +2,11 @@
 
 <img src="images/bluecolab-logo.png" alt="Blue CoLab logo" width="220"/>
 
-# Blue CoLab Student Handbook
+<h1> Blue CoLab Student Handbook </h1>
 
-**Pace University · Seidenberg School of CSIS**
+<b>Pace University · Seidenberg School of CSIS</b>
 
-*Silas Gonzalez, Martin Kapiti, Lizi Imedashvili, Mikhaila Gordon, Victor Lima, Leanne Keeley, Kenji Okura*
+<i>Silas Gonzalez, Martin Kapiti, Lizi Imedashvili, Mikhaila Gordon, Victor Lima, Leanne Keeley, Kenji Okura</i>
 
 </div>
 
@@ -14,15 +14,16 @@
 
 ## Table of Contents
 
+- [Table of Contents](#table-of-contents)
 - [Introduction to Blue CoLab](#introduction-to-blue-colab)
   - [Mission](#mission)
   - [What We Do](#what-we-do)
   - [Teams](#teams)
   - [Machines](#machines)
-    - [Alan \& Ada — Choate Pond Deep Water Monitoring Stations](#alan--ada--choate-pond-deep-water-monitoring-stations)
+    - [Alan and Ada — Choate Pond Deep Water Monitoring Stations](#alan-and-ada--choate-pond-deep-water-monitoring-stations)
     - [Odin — Weather Station](#odin--weather-station)
-    - [Skadi \& Njord — Purple Air Monitoring Stations](#skadi--njord--purple-air-monitoring-stations)
-    - [Servers — Cron Jobs \& Data Transfer](#servers--cron-jobs--data-transfer)
+    - [Skadi and Njord — Purple Air Monitoring Stations](#skadi-and-njord--purple-air-monitoring-stations)
+    - [Servers — Cron Jobs and Data Transfer](#servers--cron-jobs-and-data-transfer)
     - [Gale Epstein Center Kiosk](#gale-epstein-center-kiosk)
   - [Pace Environmental Observatory](#pace-environmental-observatory)
 - [Code of Conduct](#code-of-conduct)
@@ -42,8 +43,8 @@
   - [Water Report](#water-report)
   - [Purple Air](#purple-air)
   - [Sonification](#sonification)
-  - [Communication, UI/UX, \& Frontend Development](#communication-uiux--frontend-development)
-- [Data Access \& Resources](#data-access--resources)
+  - [Communication, UI/UX, and Frontend Development](#communication-uiux-and-frontend-development)
+- [Data Access and Resources](#data-access-and-resources)
 - [Locations and Communications](#locations-and-communications)
   - [Data Lab](#data-lab)
   - [Technology Lab](#technology-lab)
@@ -89,7 +90,7 @@ Every semester, students join one (or more) of the following teams. Each team's 
 <img src="images/stations-trailer.png" alt="Blue CoLab monitoring stations loaded on a trailer" width="500"/>
 </div>
 
-#### Alan & Ada — Choate Pond Deep Water Monitoring Stations
+#### Alan and Ada — Choate Pond Deep Water Monitoring Stations
 
 "Ada" and "Alan" are our team's first deployments of real-time water monitoring stations that will compose the Choate Smart Pond Network on the Pace University campus in Pleasantville, NY. Every fifteen minutes, they collect water quality measurements from the pond and send that data to the Blue CoLab server, where a Blue CoLab program automatically calculates a Water Quality Index. We use that data to evaluate the pond, and to create apps, products, and presentations that deepen public understanding of water.
 
@@ -97,11 +98,11 @@ Every semester, students join one (or more) of the following teams. Each team's 
 
 A self-contained weather station from Campbell Scientific. It monitors aspects of weather such as lightning strikes, vapor pressure, humidity, and more — totaling 15 weather parameters.
 
-#### Skadi & Njord — Purple Air Monitoring Stations
+#### Skadi and Njord — Purple Air Monitoring Stations
 
 "Skadi" and "Njord" are our real-time air quality monitoring stations. Every fifteen minutes they collect information about the quality of the air we breathe. They are connected to Pace's Wi-Fi and, from there, to PurpleAir's public sensor network so anyone can see the data collected from our campus. We also collect historic data directly from the stations and store it in our databases. The public can access this data using our API, or see visualizations of it in the mobile app, the website, the kiosk, or several other places.
 
-#### Servers — Cron Jobs & Data Transfer
+#### Servers — Cron Jobs and Data Transfer
 
 We are responsible for two servers. One fetches data from Ada, Alan, Odin, and our Purple Air deployments and transfers it into our database — a cron job (a scheduled task) runs every 15 minutes to query data and save it. The other server is a sandbox for experiments. We use both servers as important testbeds before we send the code over to Pace University to deploy.
 
@@ -347,18 +348,18 @@ This team aims to sonify (assign musical sounds to) the data produced by our Ada
 1. **Experiment** — Extract, normalize, and analyze key data streams produced by our pond sensors.
 2. **Brainstorm** — Work with your team to figure out how to best create a melody.
 
-### Communication, UI/UX, & Frontend Development
+### Communication, UI/UX, and Frontend Development
 
 Collecting data and having an API is useless unless we present the data in a user-friendly manner. This team displays the data we collect via a kiosk, dashboard, and an app — paired with messaging on why the data matters.
 
 ---
 
-## Data Access & Resources
+## Data Access and Resources
 
 Getting started with Blue CoLab's data and codebase:
 
 - **Intro GitHub Workshop:** <https://github.com/bluecolab/intro-git-workshop/tree/main>
-- **Blue CoLab Scripts & Docs:** <https://github.com/bluecolab/bluecolab-scripts/tree/main/Docs>
+- **Blue CoLab API:** <https://colabprod01.pace.edu/api/docs>
 
 **Public Grafana Dashboards**
 
