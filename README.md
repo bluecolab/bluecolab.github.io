@@ -1,4 +1,4 @@
 # Blue CoLab
 
-Welcome!
+bluecolab.github.io page
 
