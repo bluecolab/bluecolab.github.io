@@ -48,7 +48,7 @@
 - [Locations and Communications](#locations-and-communications)
   - [Data Lab](#data-lab)
   - [Technology Lab](#technology-lab)
-  - [Water Monitor Stations](#water-monitor-stations)
+  - [Campus Deployments](#campus-deployments)
   - [Contacts](#contacts)
   - [Online Resources](#online-resources)
 
@@ -365,11 +365,12 @@ Getting started with Blue CoLab's data and codebase:
 
 | Dashboard | Link |
 | :--- | :--- |
-| Weather | <https://colabprod01.pace.edu/grafana/public-dashboards/139d29dc18204fa28d1b39ef672c45f5> |
-| Ada WQI | <https://colabprod01.pace.edu/grafana/public-dashboards/28b52eaadf8041d490b3bca36f16101c?orgId=1&refresh=15m> |
+| Odin | <https://colabprod01.pace.edu/grafana/public-dashboards/a7650075b40145ff95085bf75bc4d0b5?orgId=1&refresh=15m> |
 | Alan WQI | <https://colabprod01.pace.edu/grafana/public-dashboards/841327a5d5fa493b8f14d638ffe2041e?orgId=1&refresh=15m> |
-| Water Monitor Ada | <https://colabprod01.pace.edu/grafana/public-dashboards/84619475e51f410ab57a389593c0593a> |
-| Water Monitor Alan | <https://colabprod01.pace.edu/grafana/public-dashboards/35f205ad7f9d458e949406a5612d9f04> |
+| Water Monitor Alan | <https://colabprod01.pace.edu/grafana/public-dashboards/36eb7ce712074b4e88518d4d48b44a16?orgId=1&refresh=15m> |
+| Njord | <https://colabprod01.pace.edu/grafana/public-dashboards/274f6fb0903b46cea4f9ed57163d5d24?orgId=1&refresh=15m> | 
+| Skadi | <https://colabprod01.pace.edu/grafana/public-dashboards/61fbf92eb544422880ac1c493c9737f7?orgId=1&refresh=15m> |
+| Public Admin Dashboard | <https://colabprod01.pace.edu/grafana/public-dashboards/f72d2462b28f41e4abe0c7db3671461e?orgId=1&refresh=15m> | 
 
 ---
 
@@ -387,10 +388,10 @@ Floor 3, Rm 316
 Ossining, NY 10562
 United States
 
-### Water Monitor Stations
+### Campus Deployments
 
-- **Ada:** the south end of Choate Pond
-- **Alan:** the north end of Choate Pond
+<img src="./images/station_map.png" alt="Station map" >
+
 
 ### Contacts
 
